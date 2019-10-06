@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name conn-din)(type KiCad)(uri ${KIPRJMOD}/conn-din)(options "")(descr ""))
+)
