@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "KZ80 PS/2 Keyboard Interface board"
-Date "2019-08-18"
+Title "KZ80 PS/2 Keyboard MSX Interface board"
+Date "2019-10-06"
 Rev "1"
 Comp "KUNI-NET"
-Comment1 ""
+Comment1 "KZ80-PS2KBD"
 Comment2 ""
 Comment3 ""
 Comment4 ""

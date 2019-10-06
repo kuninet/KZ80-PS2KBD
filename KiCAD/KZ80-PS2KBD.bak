@@ -1308,45 +1308,45 @@ Wire Bus Line
 Wire Bus Line
 	7100 4600 7100 5350
 $Comp
-L Mechanical:MountingHole MH?
+L Mechanical:MountingHole MH1
 U 1 1 5D9EA3CF
 P 10400 3350
-F 0 "MH?" H 10500 3396 50  0000 L CNN
+F 0 "MH1" H 10500 3396 50  0000 L CNN
 F 1 "MountingHole" H 10500 3305 50  0000 L CNN
-F 2 "" H 10400 3350 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10400 3350 50  0001 C CNN
 F 3 "~" H 10400 3350 50  0001 C CNN
 	1    10400 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole MH?
+L Mechanical:MountingHole MH2
 U 1 1 5D9EA41B
 P 10400 3650
-F 0 "MH?" H 10500 3696 50  0000 L CNN
+F 0 "MH2" H 10500 3696 50  0000 L CNN
 F 1 "MountingHole" H 10500 3605 50  0000 L CNN
-F 2 "" H 10400 3650 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10400 3650 50  0001 C CNN
 F 3 "~" H 10400 3650 50  0001 C CNN
 	1    10400 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole MH?
+L Mechanical:MountingHole MH3
 U 1 1 5D9EA464
 P 10400 3950
-F 0 "MH?" H 10500 3996 50  0000 L CNN
+F 0 "MH3" H 10500 3996 50  0000 L CNN
 F 1 "MountingHole" H 10500 3905 50  0000 L CNN
-F 2 "" H 10400 3950 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10400 3950 50  0001 C CNN
 F 3 "~" H 10400 3950 50  0001 C CNN
 	1    10400 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole MH?
+L Mechanical:MountingHole MH4
 U 1 1 5D9EA4AB
 P 10400 4250
-F 0 "MH?" H 10500 4296 50  0000 L CNN
+F 0 "MH4" H 10500 4296 50  0000 L CNN
 F 1 "MountingHole" H 10500 4205 50  0000 L CNN
-F 2 "" H 10400 4250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10400 4250 50  0001 C CNN
 F 3 "~" H 10400 4250 50  0001 C CNN
 	1    10400 4250
 	1    0    0    -1  
