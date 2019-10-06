@@ -5,19 +5,18 @@
 ** PS/2キーボードのシリアル信号をATmega328Pの外部割り込み機能で受信
 ** AVRマイコン内部でMSXがおこなっているPPI(8255) Cポートのスキャン信号をもとにポート変化割り込み変化割り込みが届いた場合に、PPI(8255)Bポートへスキャンコードを出力します。
 
+== 注意
+* AVRマイコンのコントロロールプログラム部分は鋭意開発中です。
+
 == ライセンスについて
 * 私が作成した回路、プログラム(改修部分)等についてはMITライセンスで公開します。
-* オリジナルとなったなったプログラムコード部分は以下のxxxx氏に帰属します。
-* PS/2キーボードのフットプリントはxx氏の成果を使わせていただきました。。ライセンスはCCです。
+* オリジナルとなったプログラムコード部分は以下のMSX Hobby氏に帰属します。
+* PS/2キーボードのフットプリントはAgilack氏の成果を使わせていただきました。ライセンスはCC-by-SAです。
 
 === 参考・使用させていただいた情報
 * mini DINパーツのフットプリント
 ** https://github.com/Agilack/contrib-kicad_parts
-* ArduinoMEGAでPS/2キーボードをMSXへ
+* ArduinoMEGAでPS/2キーボードをMSXへ(MSX Hobby)
 ** http://msx.gouget.com.br/2014/06/24/ps2-keyboard-to-msx-with-arduino/
-
-
-
-参考
-ここのDINもよさげ
-https://github.com/4x1md/kicad_libraries
+* Custom KiCad Libraries
+** https://github.com/4x1md/kicad_libraries
