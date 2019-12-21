@@ -782,11 +782,10 @@ Wire Wire Line
 	1400 2200 1600 2200
 Wire Wire Line
 	1600 2300 1400 2300
-NoConn ~ 1600 2400
-Text GLabel 1400 2500 0    50   Input ~ 0
+Text GLabel 1400 2400 0    50   Input ~ 0
 RESET
 Wire Wire Line
-	1400 2500 1600 2500
+	1400 2400 1600 2400
 NoConn ~ 2100 2200
 NoConn ~ 2100 2300
 NoConn ~ 2100 2400
@@ -841,15 +840,15 @@ F 3 "~" H 6950 1550 50  0001 C CNN
 $EndComp
 Text Notes 7050 1400 0    50   ~ 0
 GND
-Text Notes 7050 1500 0    50   ~ 0
+Text Notes 7050 1900 0    50   ~ 0
 RTS
 Text Notes 7050 1600 0    50   ~ 0
 +5V
-Text Notes 7050 1700 0    50   ~ 0
-RxD
 Text Notes 7050 1800 0    50   ~ 0
+RxD
+Text Notes 7050 1700 0    50   ~ 0
 TxD
-Text Notes 7050 1900 0    50   ~ 0
+Text Notes 7050 1500 0    50   ~ 0
 CTS
 NoConn ~ 6750 1850
 NoConn ~ 6750 1550
@@ -869,17 +868,17 @@ Wire Wire Line
 	6750 1350 6600 1350
 Wire Wire Line
 	6600 1350 6600 2000
-Text GLabel 6400 1650 0    50   BiDi ~ 0
+Text GLabel 6400 1750 0    50   BiDi ~ 0
 TxD
 Wire Wire Line
 	6400 1650 6750 1650
-Text GLabel 6400 1750 0    50   BiDi ~ 0
+Text GLabel 6400 1650 0    50   BiDi ~ 0
 RxD
 Wire Wire Line
 	6400 1750 6750 1750
-Text GLabel 2850 6150 2    50   BiDi ~ 0
-TxD
 Text GLabel 2850 6250 2    50   BiDi ~ 0
+TxD
+Text GLabel 2850 6150 2    50   BiDi ~ 0
 RxD
 Wire Wire Line
 	2600 6150 2850 6150
@@ -1067,7 +1066,7 @@ MISO
 Text Label 4000 3750 0    50   ~ 0
 SCK
 Text Label 4100 3950 0    50   ~ 0
-RESET
+~RESET
 Text Label 4750 3750 0    50   ~ 0
 MOSI
 NoConn ~ 1600 1600
@@ -1301,12 +1300,6 @@ Wire Wire Line
 	5500 2000 5650 2000
 Wire Wire Line
 	5650 2000 5650 2050
-Wire Bus Line
-	7100 4150 7100 4350
-Wire Bus Line
-	7600 2250 7600 4150
-Wire Bus Line
-	7100 4600 7100 5350
 $Comp
 L Mechanical:MountingHole MH1
 U 1 1 5D9EA3CF
@@ -1351,4 +1344,11 @@ F 3 "~" H 10400 4250 50  0001 C CNN
 	1    10400 4250
 	1    0    0    -1  
 $EndComp
+NoConn ~ 1600 2500
+Wire Bus Line
+	7100 4150 7100 4350
+Wire Bus Line
+	7600 2250 7600 4150
+Wire Bus Line
+	7100 4600 7100 5350
 $EndSCHEMATC

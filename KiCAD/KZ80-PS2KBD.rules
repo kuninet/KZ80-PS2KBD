@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 1523)
+    (start_pass_no 2870)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -78,9 +78,9 @@
     "Net-(U4-Pad12)" "Net-(U4-Pad13)" "Net-(U4-Pad27)" "Net-(U4-Pad28)" "Net-(J5-Pad2)" "Net-(J5-Pad7)" /A3 "Net-(J5-Pad5)"
     /A4 "Net-(J5-Pad3)" "Net-(J4-Pad1)" "Net-(J5-Pad1)" "Net-(J4-Pad3)" /A6 "Net-(J4-Pad5)" /A5
     "Net-(J4-Pad7)" "Net-(JP1-Pad2)" "Net-(U2-Pad1)" "Net-(JP1-Pad1)" /A7 "Net-(U2-Pad11)" "Net-(J3-Pad5)" "Net-(J3-Pad6)"
-    "Net-(J3-Pad7)" "Net-(J3-Pad8)" "Net-(J3-Pad18)" "Net-(J3-Pad20)" "Net-(J3-Pad21)" "Net-(J3-Pad22)" "Net-(J3-Pad24)" "Net-(J3-Pad27)"
-    "Net-(J3-Pad33)" "Net-(J3-Pad34)" "Net-(J3-Pad35)" "Net-(J3-Pad36)" "Net-(J3-Pad37)" "Net-(J3-Pad38)" "Net-(J3-Pad39)" "Net-(J3-Pad40)"
-    "Net-(J1-Pad2)" "Net-(J1-Pad3)" "Net-(J1-Pad6)"
+    "Net-(J3-Pad7)" "Net-(J3-Pad8)" "Net-(J3-Pad18)" "Net-(J3-Pad20)" "Net-(J3-Pad22)" "Net-(J3-Pad24)" "Net-(J3-Pad27)" "Net-(J3-Pad33)"
+    "Net-(J3-Pad34)" "Net-(J3-Pad35)" "Net-(J3-Pad36)" "Net-(J3-Pad37)" "Net-(J3-Pad38)" "Net-(J3-Pad39)" "Net-(J3-Pad40)" "Net-(J1-Pad2)"
+    "Net-(J1-Pad3)" "Net-(J1-Pad6)" "Net-(J3-Pad23)" /~RESET
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
