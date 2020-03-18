@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "KZ80 PS/2 Keyboard MSX Interface board"
 Date "2019-10-06"
-Rev "1.1"
+Rev "1"
 Comp "KUNI-NET"
 Comment1 "KZ80-PS2KBD"
 Comment2 ""
