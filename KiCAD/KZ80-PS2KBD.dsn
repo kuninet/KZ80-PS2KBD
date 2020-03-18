@@ -1,9 +1,9 @@
-(pcb "/Users/kuninet/Box Sync/github/KZ80-PS2KBD/KiCAD/KZ80-PS2KBD.dsn"
+(pcb "/Volumes/USB4TB/@@@Box/github/KZ80-PS2KBD/KiCAD/KZ80-PS2KBD.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "(5.0.0-3-g5ebb6b6)")
+    (host_version "(5.1.4-0)")
   )
   (resolution um 10)
   (unit um)
@@ -1193,11 +1193,11 @@
       (pins J2-2)
     )
     (net GND
-      (pins C1-2 C5-2 C4-2 C3-2 C2-1 J1-1 J6-6 J7-14 J3-2 J3-4 U2-14 U1-8 U4-8 U4-22
+      (pins C1-2 C5-2 C4-2 C3-2 C2-1 J1-1 J6-6 J7-14 J3-2 J3-4 U2-7 U1-8 U4-8 U4-22
         U3-7 J2-3)
     )
     (net VCC
-      (pins C1-1 C5-1 C4-1 C3-1 C2-2 J6-2 J7-13 J3-1 J3-3 U2-7 U1-16 U4-20 U4-7 U3-26
+      (pins C1-1 C5-1 C4-1 C3-1 C2-2 J6-2 J7-13 J3-1 J3-3 U2-14 U1-16 U4-20 U4-7 U3-26
         RN1-1 R1-1 J2-4)
     )
     (net CLK
