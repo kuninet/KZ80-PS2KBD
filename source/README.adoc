@@ -1,0 +1,27 @@
+= KZ80マイコン MSX互換 PS/2キーボードアダプタ用 ATmega328Pプログラム =
+
+== 概要 ==
+* KZ80マイコン MSX互換 PS/2キーボードアダプタ用 のATmega328Pのためのプログラムです。
+** Arduinoのスケッチの形式となっています。
+** ATmega328Pは内蔵CR発振器(8MHz)で稼働させます。
+** 本ボードは、PS/2キーボードのデータをATmega328Pマイコンでうけとって、MSXのキースキャン(8255)に対してキースキャンの信号線を出力する仕組みとなっています。(元になった仕組みについては、参考URLを参照ください)
+
+
+== ATmega328への書き込み手順 ==
+. ブートローダーの書き込み
++
+* まず、ATmega328PへArduinoIDEを使ってブートローダーを書き込んでください。
+** 参考URL
+*** http://teppodone.hatenadiary.jp/entry/ArduinoIDE1.8.5_8MHz_internalClock_ATmega328P
+**** 「【ArduinoIDE1.8.x】ATmega328PでArduinoを作る(内蔵8MHz使用)」自作武器を作ろうず
+* KZ80マイコン MSX互換 PS/2キーボードアダプタにはICSP用端子(6pin)を用意していますので、ArduinoIDEからUSBASP等のプログラマで書き込み可能です。(AtduinoUNOのArduinoISPスケッチなとでも可能だと思われます)
+. PS/2キーボードサポートのスケッチを書き込み
++
+* ブートローダーのかきこみが終了したら、PS2_KZ80フォルダに入っている `PS2_KZ80.ino` をArduinoIDEをつかってATmega328Pへ書き込んでください。
+** スケッチの書き込みも書き込みもブートローダー同様 USBASPなどをICSP端子へつないで実施します。
+** スケッチ書き込みはArduinoボードで書き込む際の[→]ボタンアイコンではなく、プルダウンメニューの「スケッチ」>「書き込み装置を使って書き込む」を使用してください。
+
+== 参考 ==
+* 本プログラムは以下の以下のMSX Hobby氏のプログラムを使用し、KZ80-PS2KBD用にカスタマイズさせていただきました。
+** ArduinoMEGAでPS/2キーボードをMSXへ(MSX Hobby)
+*** http://msx.gouget.com.br/2014/06/24/ps2-keyboard-to-msx-with-arduino/
