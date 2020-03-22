@@ -8,6 +8,9 @@
 #define F_CPU 8000000UL
 
 PS2Keyboard keyboard;
+volatile boolean keyscan_f = true;
+volatile byte prev_keyscan = 10;
+
 
 void setup() {
   
@@ -32,21 +35,24 @@ void loop() {
 
 ISR(PCINT1_vect)
 {
-
-    if ( PINC == 8) {
-      delayMicroseconds(16);
-      if (PINC==8) {
-        noInterrupts();
+    byte wk_c = PINC;
+    if ((prev_keyscan == 10)&&(wk_c == 8)){
+      keyscan_f = true;
+    } else if (wk_c >= 10){
+      prev_keyscan = wk_c;
+      keyscan_f = false;
+    }
+    
+    if (!keyscan_f){return;}
+    
+    if ( wk_c == 8) {
+      if (prev_keyscan == 10){
         PORTB = keyboard.MSX_KB_Matrix(0);
-        interrupts();
       }else{
-        noInterrupts();
-        PORTB = keyboard.MSX_KB_Matrix(PINC+1); 
-        interrupts();
+        PORTB = keyboard.MSX_KB_Matrix(wk_c+1);       
       }
-    } else {
-      noInterrupts();
-      PORTB = keyboard.MSX_KB_Matrix(PINC+1) ;
-      interrupts();
-    }        
+    }else{
+      PORTB = keyboard.MSX_KB_Matrix(wk_c+1); 
+    }
+    prev_keyscan = wk_c;
 }
