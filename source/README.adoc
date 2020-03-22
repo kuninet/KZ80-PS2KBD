@@ -14,7 +14,7 @@
 ** 参考URL
 *** http://teppodone.hatenadiary.jp/entry/ArduinoIDE1.8.5_8MHz_internalClock_ATmega328P
 **** 「【ArduinoIDE1.8.x】ATmega328PでArduinoを作る(内蔵8MHz使用)」自作武器を作ろうず
-* KZ80マイコン MSX互換 PS/2キーボードアダプタにはICSP用端子(6pin)を用意していますので、ArduinoIDEからUSBASP等のプログラマで書き込み可能です。(AtduinoUNOのArduinoISPスケッチなとでも可能だと思われます)
+* KZ80マイコン MSX互換 PS/2キーボードアダプタにはICSP用端子(6pin)を用意していますので、ArduinoIDEからUSBASP等のプログラマで書き込み可能です。(AtduinoUNOのArduinoISPスケッチなどでも可能だと思われます)
 . PS/2キーボードサポートのスケッチを書き込み
 +
 * ブートローダーのかきこみが終了したら、PS2_KZ80フォルダに入っている `PS2_KZ80.ino` をArduinoIDEをつかってATmega328Pへ書き込んでください。
