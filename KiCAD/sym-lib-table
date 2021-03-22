@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name KZ80-PS2KBD-rescue)(type Legacy)(uri ${KIPRJMOD}/KZ80-PS2KBD-rescue.lib)(options "")(descr ""))
+  (lib (name AJ-1780)(type Legacy)(uri ${KIPRJMOD}/AJ-1780.lib)(options "")(descr ""))
 )

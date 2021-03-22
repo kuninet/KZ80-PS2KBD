@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 2042)
+    (start_pass_no 3818)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -69,18 +69,15 @@
     )
   )
   (class "kicad_default"
-    DATA "Net-(J2-Pad2)" CLK "Net-(J2-Pad6)" RESET "Net-(RN1-Pad2)" "Net-(RN1-Pad3)" "Net-(RN1-Pad4)"
-    /MOSI /MISO /SCK "Net-(RN1-Pad8)" "Net-(RN1-Pad9)" /PA3 /PA2 /PA1
-    /PA0 ~IORD "PPI-CE" /D7 A1 /D6 A0 /D5
-    /PC7 /D4 /PC6 /D3 /PC5 /D2 /PC4 D1
-    "Net-(U3-Pad14)" D0 "Net-(U3-Pad15)" "Net-(U3-Pad16)" ~IOWR "Net-(U3-Pad17)" /PA7 /PA6
-    /PA5 /PA4 "Net-(U2-Pad3)" TxD RxD "Net-(U4-Pad6)" "Net-(U4-Pad21)" "Net-(U4-Pad11)"
-    "Net-(U4-Pad12)" "Net-(U4-Pad13)" "Net-(U4-Pad27)" "Net-(U4-Pad28)" "Net-(J5-Pad2)" "Net-(J5-Pad7)" /A3 "Net-(J5-Pad5)"
-    /A4 "Net-(J5-Pad3)" "Net-(J4-Pad1)" "Net-(J5-Pad1)" "Net-(J4-Pad3)" /A6 "Net-(J4-Pad5)" /A5
-    "Net-(J4-Pad7)" "Net-(JP1-Pad2)" "Net-(U2-Pad1)" "Net-(JP1-Pad1)" /A7 "Net-(U2-Pad11)" "Net-(J3-Pad5)" "Net-(J3-Pad6)"
-    "Net-(J3-Pad7)" "Net-(J3-Pad8)" "Net-(J3-Pad18)" "Net-(J3-Pad20)" "Net-(J3-Pad22)" "Net-(J3-Pad24)" "Net-(J3-Pad27)" "Net-(J3-Pad33)"
-    "Net-(J3-Pad34)" "Net-(J3-Pad35)" "Net-(J3-Pad36)" "Net-(J3-Pad37)" "Net-(J3-Pad38)" "Net-(J3-Pad39)" "Net-(J3-Pad40)" "Net-(J1-Pad2)"
-    "Net-(J1-Pad3)" "Net-(J1-Pad6)" "Net-(J3-Pad23)" /~RESET
+    DATA CLK RESET "Net-(RN1-Pad2)" "Net-(RN1-Pad3)" "Net-(RN1-Pad4)" /MOSI /MISO
+    /SCK "Net-(RN1-Pad8)" "Net-(RN1-Pad9)" /PA3 /PA2 /PA1 /PA0 ~IORD
+    "PPI-CE" /D7 A1 /D6 A0 /D5 /PC7 /D4
+    /PC6 /D3 /PC5 /D2 /PC4 D1 "Net-(U3-Pad14)" D0
+    "Net-(U3-Pad15)" "Net-(U3-Pad16)" ~IOWR "Net-(U3-Pad17)" /PA7 /PA6 /PA5 /PA4
+    "Net-(U2-Pad3)" TxD RxD "Net-(J5-Pad2)" "Net-(J5-Pad7)" /A3 "Net-(J5-Pad5)" /A4
+    "Net-(J5-Pad3)" "Net-(J4-Pad1)" "Net-(J5-Pad1)" "Net-(J4-Pad3)" /A6 "Net-(J4-Pad5)" /A5 "Net-(J4-Pad7)"
+    "Net-(JP1-Pad2)" "Net-(U2-Pad1)" "Net-(JP1-Pad1)" /A7 "Net-(U2-Pad11)" /~RESET "Net-(C6-Pad1)" "Net-(C7-Pad1)"
+    "Net-(J8-Pad5)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
