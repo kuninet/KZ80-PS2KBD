@@ -34,18 +34,18 @@
   )
   (placement
     (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
-      (place R4 146990 -93030 front 0 (PN 100))
-      (place R3 141500 -97050 front 270 (PN 47k))
-      (place R2 137560 -106980 front 90 (PN 4.7k))
+      (place R4 84000 -99000 front 180 (PN 100))
+      (place R3 84000 -95500 front 180 (PN 47k))
+      (place R2 74000 -92000 front 0 (PN 4.7k))
     )
     (component "AJ-1780:AJ-1780"
-      (place J8 159220 -101890 front 180 (PN "CMT-OUT"))
+      (place J8 61500 -107500 front 0 (PN "CMT-OUT"))
     )
     (component Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm
-      (place C7 141090 -110590 front 180 (PN 0.0022u))
-      (place C6 140760 -93770 front 180 (PN 0.1u))
-      (place C5 129030 -90750 front 0 (PN 0.1u))
-      (place C3 97250 -83500 front 270 (PN 0.1u))
+      (place C7 69000 -95500 front 180 (PN 0.0022u))
+      (place C6 85000 -88500 front 180 (PN 0.1u))
+      (place C5 135000 -92000 front 180 (PN 0.1u))
+      (place C3 104000 -104000 front 0 (PN 0.1u))
     )
     (component MountingHole:MountingHole_3.2mm_M3
       (place MH4 154500 -120500 front 0 (PN MountingHole))
@@ -59,23 +59,23 @@
       (place C1 74500 -61250 front 90 (PN 10u))
     )
     (component Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm::1
-      (place C4 147500 -65000 front 0 (PN 0.1u))
-      (place C2 77500 -84250 front 0 (PN 0.1u))
+      (place C4 132500 -67500 front 0 (PN 0.1u))
+      (place C2 88500 -88500 front 0 (PN 0.1u))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
-      (place JP1 126250 -85000 front 90 (PN A7_JP))
+      (place JP1 144750 -85000 front 90 (PN A7_JP))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal
       (place J1 136500 -116000 front 270 (PN "232C(DEBUG)"))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical
-      (place J6 114500 -71500 front 0 (PN ICSP))
+      (place J6 116500 -108500 front 90 (PN ICSP))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical
-      (place J5 123750 -71000 front 0 (PN "ADR-JP1"))
+      (place J5 142250 -71000 front 0 (PN "ADR-JP1"))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical::1
-      (place J4 132250 -71000 front 0 (PN "ADR-JP2"))
+      (place J4 150750 -71000 front 0 (PN "ADR-JP2"))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical
       (place J7 66750 -80000 front 180 (PN "CON-A"))
@@ -84,22 +84,22 @@
       (place J3 86250 -62000 front 90 (PN "SBC8080 BUS"))
     )
     (component "Package_DIP:DIP-14_W7.62mm_Socket"
-      (place U2 123530 -94000 front 0 (PN 74HC00))
+      (place U2 127500 -95000 front 0 (PN 74HC00))
     )
     (component "Package_DIP:DIP-16_W7.62mm_Socket"
-      (place U1 141750 -68000 front 0 (PN 74HC139))
+      (place U1 127250 -70500 front 0 (PN 74HC139))
     )
     (component "Package_DIP:DIP-28_W7.62mm_Socket"
-      (place U4 101250 -68250 front 0 (PN "ATmega328P-PU"))
+      (place U4 88500 -101000 front 90 (PN "ATmega328P-PU"))
     )
     (component "Package_DIP:DIP-40_W15.24mm_Socket"
-      (place U3 72250 -68500 front 0 (PN 8255))
+      (place U3 73000 -85000 front 90 (PN 8255))
     )
     (component Resistor_THT:R_Array_SIP9
-      (place RN1 93250 -116250 front 90 (PN 10k))
+      (place RN1 120500 -66000 front 180 (PN 10k))
     )
     (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal::1
-      (place R1 114750 -94750 front 90 (PN 10k))
+      (place R1 99500 -108000 front 0 (PN 10k))
     )
     (component "conn-din:din6-schurter-4850261"
       (place J2 107000 -118500 front 0 (PN "PS/2 KB"))
@@ -1455,20 +1455,13 @@
     )
     (class kicad_default "" /A3 /A4 /A5 /A6 /A7 /D2 /D3 /D4 /D5 /D6 /D7 /MISO
       /MOSI /PA0 /PA1 /PA2 /PA3 /PA4 /PA5 /PA6 /PA7 /PC4 /PC5 /PC6 /PC7 /SCK
-      /~RESET A0 A1 CLK D0 D1 DATA "Net-(C6-Pad1)" "Net-(C7-Pad1)" "Net-(J1-Pad2)"
-      "Net-(J1-Pad3)" "Net-(J1-Pad6)" "Net-(J2-Pad2)" "Net-(J2-Pad6)" "Net-(J3-Pad18)"
-      "Net-(J3-Pad20)" "Net-(J3-Pad22)" "Net-(J3-Pad23)" "Net-(J3-Pad24)"
-      "Net-(J3-Pad27)" "Net-(J3-Pad33)" "Net-(J3-Pad34)" "Net-(J3-Pad35)"
-      "Net-(J3-Pad36)" "Net-(J3-Pad37)" "Net-(J3-Pad38)" "Net-(J3-Pad39)"
-      "Net-(J3-Pad40)" "Net-(J3-Pad5)" "Net-(J3-Pad6)" "Net-(J3-Pad7)" "Net-(J3-Pad8)"
-      "Net-(J4-Pad1)" "Net-(J4-Pad3)" "Net-(J4-Pad5)" "Net-(J4-Pad7)" "Net-(J5-Pad1)"
-      "Net-(J5-Pad2)" "Net-(J5-Pad3)" "Net-(J5-Pad5)" "Net-(J5-Pad7)" "Net-(J8-Pad2)"
-      "Net-(J8-Pad3)" "Net-(J8-Pad4)" "Net-(J8-Pad5)" "Net-(JP1-Pad1)" "Net-(JP1-Pad2)"
-      "Net-(RN1-Pad2)" "Net-(RN1-Pad3)" "Net-(RN1-Pad4)" "Net-(RN1-Pad8)"
-      "Net-(RN1-Pad9)" "Net-(U2-Pad1)" "Net-(U2-Pad11)" "Net-(U2-Pad3)" "Net-(U3-Pad14)"
-      "Net-(U3-Pad15)" "Net-(U3-Pad16)" "Net-(U3-Pad17)" "Net-(U4-Pad11)"
-      "Net-(U4-Pad12)" "Net-(U4-Pad13)" "Net-(U4-Pad21)" "Net-(U4-Pad27)"
-      "Net-(U4-Pad28)" "Net-(U4-Pad6)" "PPI-CE" RESET RxD TxD ~IORD ~IOWR
+      /~RESET A0 A1 CLK D0 D1 DATA "Net-(C6-Pad1)" "Net-(C7-Pad1)" "Net-(J4-Pad1)"
+      "Net-(J4-Pad3)" "Net-(J4-Pad5)" "Net-(J4-Pad7)" "Net-(J5-Pad1)" "Net-(J5-Pad2)"
+      "Net-(J5-Pad3)" "Net-(J5-Pad5)" "Net-(J5-Pad7)" "Net-(J8-Pad5)" "Net-(JP1-Pad1)"
+      "Net-(JP1-Pad2)" "Net-(RN1-Pad2)" "Net-(RN1-Pad3)" "Net-(RN1-Pad4)"
+      "Net-(RN1-Pad8)" "Net-(RN1-Pad9)" "Net-(U2-Pad1)" "Net-(U2-Pad11)" "Net-(U2-Pad3)"
+      "Net-(U3-Pad14)" "Net-(U3-Pad15)" "Net-(U3-Pad16)" "Net-(U3-Pad17)"
+      "PPI-CE" RESET RxD TxD ~IORD ~IOWR
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
