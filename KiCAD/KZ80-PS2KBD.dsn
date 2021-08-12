@@ -60,7 +60,7 @@
     )
     (component Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm::1
       (place C4 132500 -67500 front 0 (PN 0.1u))
-      (place C2 88500 -88500 front 0 (PN 0.1u))
+      (place C2 108500 -78500 front 90 (PN 0.1u))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
       (place JP1 144750 -85000 front 90 (PN A7_JP))
@@ -1481,5 +1481,9 @@
     )
   )
   (wiring
+    (wire (path F.Cu 600  85540 -58750  86250 -59460)(net GND)(type protect))
+    (wire (path F.Cu 600  74500 -58750  85540 -58750)(net GND)(type protect))
+    (wire (path F.Cu 600  85500 -61250  86250 -62000)(net VCC)(type protect))
+    (wire (path F.Cu 600  74500 -61250  85500 -61250)(net VCC)(type protect))
   )
 )
